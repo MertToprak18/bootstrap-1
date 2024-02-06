@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider-resim {
+  height: 600px;
+}
+body {
+  padding-top: 50px;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+#about,
+#galeri {
+  background-color: #f2f2f2;
+}
+
+.çizgi {
+  width: 250px;
+  border: none;
+  border-top: 3px solid #343a40;
+  margin: 25px auto;
+}
+.yaprak {
+  font-size: 40px;
+  position: relative;
+  top: -45px;
+  background-color: #f2f2f2;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.yaprakb {
+  font-size: 40px;
+  position: relative;
+  top: -45px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.resim:hover {
+  opacity: 0.8;
+}
+figure {
+  transition: 0.4s;
+}
+figure:hover {
+  opacity: 0.8;
+  scale: 1.05;
+}
+#ekip .card {
+  padding: 0;
+}
+
+#kapsayici {
+  padding: 50px !important;
+}
